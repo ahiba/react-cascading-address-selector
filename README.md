@@ -6,9 +6,10 @@ React级联地址选择器组件 FOR CHINA ONLY
 ```
 npm install -g webpack
 ```
-####2、安装webpack插件jsx-loader用于加载jsx语法文件
+####2、安装webpack插件jsx-loader用于加载jsx语法文件,各种样式loader插件用于处理less/css
 ```
 npm install --save-dev jsx-loader
+npm install --save-dev style-loader css-loader url-loader less-loader 
 ```
 ####3、执行webpack命令，在assets目录将生成bundle.js，打包了js/jsx内容
 ```
