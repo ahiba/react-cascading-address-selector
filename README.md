@@ -26,4 +26,4 @@ webpack-dev-server --progress --colors
 现在可以通过http://localhost:8080/webpack-dev-server/index.html打开页面
 
 
-[在线查看Demo效果](http://runjs.cn/detail/70kgpqpi)
+[在线查看Demo效果](http://runjs.cn/detail/wyreqgtd)
