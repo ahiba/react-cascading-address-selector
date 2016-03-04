@@ -81,7 +81,7 @@ var CascadingAddressForm = React.createClass({
           onUserSelect={this.handleUserDistSelect} 
         /> 
         <li className="clearfix">
-            <div className="fl a">{"具体地址"}</div>
+            <div className="fl a">具体地址</div>
             <div className="fl b">
                 <textarea id="address" name="address" className="text" placeholder="请填写具体地址" required="" defaultValue={this.props.address}></textarea>
             </div>
