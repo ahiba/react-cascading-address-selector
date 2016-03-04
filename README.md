@@ -11,7 +11,7 @@ npm install -g webpack
 npm install --save-dev jsx-loader
 npm install --save-dev style-loader css-loader url-loader less-loader 
 ```
-####3、执行webpack命令，在assets目录将生成bundle.js，打包了js/jsx内容
+####3、执行webpack命令，在assets目录将生成bundle.js，打包了所有js/jsx/less等内容
 ```
 webpack
 ```
