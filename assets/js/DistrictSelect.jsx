@@ -14,7 +14,7 @@ var DistrictSelect = React.createClass({
     }.bind(this));
     return (
         <li className="clearfix">
-            <div className="fl a">{"区/县"}</div>
+            <div className="fl a">区/县</div>
             <div className="fl b">
                 <div className="new-select-wp" id="district">
                     <select 
