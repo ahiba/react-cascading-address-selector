@@ -14,7 +14,7 @@ var CitySelect = React.createClass({
     }.bind(this));
     return (
         <li className="clearfix">
-            <div className="fl a">{"市"}</div>
+            <div className="fl a">市</div>
             <div className="fl b">
                 <div className="new-select-wp" id="city">
                     <select
