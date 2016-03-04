@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var CascadingAddressForm = require('./CascadingAddressForm');
+var CascadingAddressForm = require('./CascadingAddressForm.jsx');
 require('../less/style.less');
 
 ReactDOM.render(
