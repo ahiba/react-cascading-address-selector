@@ -1,6 +1,6 @@
 var React = require('react');
 var DefaultOption = require('./DefaultOption.jsx');
-var CityOption = require('./CityOption.jsx');
+var AddrOption = require('./AddrOption.jsx');
 
 var CitySelect = React.createClass({
   handleChange: function() {
@@ -9,8 +9,8 @@ var CitySelect = React.createClass({
   render: function() {
     var options=[];
     options.push(<DefaultOption />);
-    this.props.cities.forEach(function(city){
-      options.push(<CityOption city={city} key={city.value} />);
+    this.props.cities.forEach(function(addr){
+      options.push(<AddrOption addr={addr} key={addr.value} />);
     }.bind(this));
     return (
         <li className="clearfix">
