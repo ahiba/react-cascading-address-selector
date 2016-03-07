@@ -1,6 +1,6 @@
 var React = require('react');
 var DefaultOption = require('./DefaultOption.jsx');
-var ProvinceOption = require('./ProvinceOption.jsx');
+var AddrOption = require('./AddrOption.jsx');
 
 var ProvinceSelect = React.createClass({
   handleChange: function() {
@@ -9,8 +9,8 @@ var ProvinceSelect = React.createClass({
   render: function() {
     var options=[];
     options.push(<DefaultOption />);
-    this.props.provinces.forEach(function(province){
-      options.push(<ProvinceOption province={province} key={province.value} />);
+    this.props.provinces.forEach(function(addr){
+      options.push(<AddrOption addr={addr} key={addr.value} />);
     }.bind(this));
     return (
         <li className="clearfix">
