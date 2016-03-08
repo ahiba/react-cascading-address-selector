@@ -82,7 +82,7 @@ var CascadingAddressForm = React.createClass({
           initSelectedValue={this.state.distSelectedValue} 
           onUserSelect={this.handleUserDistSelect} 
           addrCNTitle="区/县"
-          addrENTitle="prov"          
+          addrENTitle="district"          
         /> 
         <li className="clearfix">
             <div className="fl a">具体地址</div>
