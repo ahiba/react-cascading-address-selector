@@ -1,0 +1,35 @@
+{
+    "name": "react-cascading-address-selector",
+    "version": "0.1.0",
+    "description": "React cascading address selector FOR CHINA ONLY",
+    "scripts": {
+        "start": "webpack-dev-server --progress --colors"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nelsonkuang/react-cascading-address-selector.git"
+    },
+    "keywords": [
+        "mobile",
+        "ui",
+        "react"
+    ],
+    "author": "Nelson Kuang",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/nelsonkuang/react-cascading-address-selector/issues"
+    },
+    "homepage": "https://github.com/nelsonkuang/react-cascading-address-selector",
+    "devDependencies": {
+        "jsx-loader": "^0.13.2",
+        "css-loader": "^0.23.0",
+        "less": "^2.5.3",
+        "less-loader": "^2.2.1",
+        "react": "^0.14.0",
+        "react-dom": "^0.14.0",
+        "style-loader": "^0.13.0",
+        "url-loader": "^0.5.7",
+        "webpack": "^1.12.2",
+        "webpack-dev-server": "^1.12.1"
+    }
+}
