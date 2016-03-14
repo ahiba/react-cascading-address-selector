@@ -2,16 +2,13 @@ var React = require('react');
 var AddrSelect = require('./AddrSelect.jsx');
 var addr_arr=require('./CNAddrArr');
 //初始并格式化数据，格式[{value:"",name:""}，{value:"",name:""}...]
-var PROVINCES = [],
-    CITIES=[],
-    DISTRICTS=[],
-    ADDRESS="";
+var PROVINCES = [];
 //省份下拉数据，其初始后从不改变
 addr_arr[0].forEach(function(prov){
    PROVINCES.push({value:prov[0],name:prov[1]});
 });
-//获取市/区数据函数，动态，经常改变
-function getOptionsArrayById(id){
+//根据id获取市/区数据函数，动态，经常改变
+function getAddrsArrayById(id){
    var arr=[];
    addr_arr[id].forEach(function(subArr){
       arr.push({value:subArr[0],name:subArr[1]});
@@ -48,8 +45,8 @@ var CascadingAddressForm = React.createClass({
   },    
 
   render: function() {
-    var newCities = (this.state.provSelectedValue !=0 ? getOptionsArrayById(this.state.provSelectedValue) : []);
-    var newDistricts = (this.state.citySelectedValue!=0 ? getOptionsArrayById(this.state.citySelectedValue) : []);      
+    var newCities = (this.state.provSelectedValue !=0 ? getAddrsArrayById(this.state.provSelectedValue) : []);
+    var newDistricts = (this.state.citySelectedValue!=0 ? getAddrsArrayById(this.state.citySelectedValue) : []);      
     return (
       <ul>
         <AddrSelect 
