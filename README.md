@@ -1,5 +1,5 @@
 # react-cascading-address-selector
-React级联地址选择器组件 FOR CHINA ONLY 纯前端实现 地址数组的检索充分运用了以空间换时间的思路
+React级联地址选择器组件纯前端实现 地址数组的检索充分运用了以空间换时间的思路
 
 ##使用方式
 ```
