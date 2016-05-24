@@ -1,7 +1,7 @@
 {
     "name": "react-cascading-address-selector",
     "version": "0.1.0",
-    "description": "React cascading address selector FOR CHINA ONLY",
+    "description": "React cascading address selector FOR Chinese (Simplified) ONLY",
     "scripts": {
         "start": "webpack-dev-server --progress --colors"
     },
