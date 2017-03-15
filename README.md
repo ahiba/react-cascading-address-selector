@@ -1,7 +1,7 @@
 # react-cascading-address-selector
 React级联地址选择器组件纯前端实现 地址数组的检索充分运用了以空间换时间的思路
 
-##使用方式
+## 使用方式
 ```
 git clone https://github.com/nelsonkuang/react-cascading-address-selector.git
 cd react-cascading-address-selector
